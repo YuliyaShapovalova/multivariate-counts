@@ -1,6 +1,6 @@
 # Multivariate models for count data
 
-Basic implementation of state-space and log-linear models. 
+Basic implementation of state-space and log-linear models for count data (bivariate case). 
 
 Cite: 
 @article{shapovalova2021multivariate,
