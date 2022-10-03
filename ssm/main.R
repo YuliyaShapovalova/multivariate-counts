@@ -1,9 +1,10 @@
 #################################################################################
 # Bivariate analysis of count data with state-space model
 #################################################################################
-
+# Set working directory
+#setwd("my_working_directory")
 # Load libraries
-setwd("/Users/Yuliya/Dropbox/CountSSM/git/ssm")
+
 library("xtable")
 library("coda")
 library("stats")
