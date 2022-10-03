@@ -3,15 +3,24 @@
 Basic implementation of state-space and log-linear models for count data (bivariate case). 
 
 Cite: 
-@article{shapovalova2021multivariate,\\
-  title={Multivariate count data models for time series forecasting},\\
-  author={Shapovalova, Yuliya and Ba{\c{s}}t{\"u}rk, Nalan and Eichler, Michael},\\
-  journal={Entropy},\\
-  volume={23},\\
-  number={6},\\
-  pages={718},\\
-  year={2021},\\
-  publisher={MDPI}\\
+@article{shapovalova2021multivariate,
+
+  title={Multivariate count data models for time series forecasting},
+  
+  author={Shapovalova, Yuliya and Ba{\c{s}}t{\"u}rk, Nalan and Eichler, Michael},
+  
+  journal={Entropy},
+  
+  volume={23},
+  
+  number={6},
+  
+  pages={718},
+  
+  year={2021},
+  
+  publisher={MDPI}
+  
 }
 
 ## Models
