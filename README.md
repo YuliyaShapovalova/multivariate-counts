@@ -24,9 +24,9 @@ log-linear -- directory with the log-linear model example;
 Both models contain and example file called main.R in corresponding directories.
 
 ## Dependencies
-SSM depends on Fortran routine for SMC; you likely will need to recompile likfort2count.f90 function. Go to ssm/utils/ and run make from Terminal/command line. Makefile may need to be adjusted depending on your system.
+SSM depends on a Fortran routine for SMC; you likely will need to recompile likfort2count.f90 function. Go to ssm/utils/ and run make from Terminal/command line. Makefile may need to be adjusted depending on your system.
 
-log-linear model depends on C function; you likely will need to recompile gpoisson.c. Go to log-linear/utils and run make from Terminal/command line. Makefile may need to be adjusted depending on your system.
+Log-linear model depends on a C function; you likely will need to recompile gpoisson.c. Go to log-linear/utils and run make from Terminal/command line. Makefile may need to be adjusted depending on your system.
 
 
 
