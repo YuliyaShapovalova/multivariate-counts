@@ -1,4 +1,4 @@
-# Multivariate models for count data
+# Multivariate count data models for time series
 
 Basic implementation of state-space and log-linear models for count data (bivariate case). 
 
