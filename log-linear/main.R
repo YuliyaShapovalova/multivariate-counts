@@ -1,4 +1,5 @@
-setwd("/Users/yuliya/Dropbox/CountSSM/git/log-linear")
+# Set working directory
+#setwd("my_working_directory")
 #dyn.load("gpoisson.so")
 source("utils/utils_loglinear.R")
 
