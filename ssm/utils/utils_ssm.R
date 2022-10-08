@@ -130,7 +130,7 @@ pf<-function(N,n,theta,x){
                 hmean[,t]=apply(hp[,,t-1],1,mean)
                 hp[,,t]=phi%*%hp[,k,t-1]+rmultnorm(N,rep(0,n),seta) 
                 #w[,t]=dpoisson(sum(x[,t-1]),apply(theta[Ibeta]*exp(hp[,,t]),2,sum))
-                w[,t]=apply(dpoisson(x[,t-1],theta[Ibeta]*exp(hp[,,t])),2,sum)
+                w[,t]=apply(dpoisson(x[,t-1],theta[Ibeta]*exp(hp[,,t]), log=TRUE),2,sum)
                 #rescale
                 wmax=max(w[,t])
                 w[,t]=exp(w[,t]-wmax)
